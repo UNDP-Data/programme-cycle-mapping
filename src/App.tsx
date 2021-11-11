@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import { ProjectCycle } from './ProjectCycle';
-import { ListView } from './ListView';
 import styled, { createGlobalStyle } from 'styled-components';
 import Select from 'react-dropdown-select';
 
@@ -232,39 +231,48 @@ const CheckboxContainer = styled.div`
 
 const options = [
   {
-    value: "Programme Officer"
-  },
-  {
-    value: "Project Developer"
-  },
-  {
-    value: "Quality Assessor"
-  },
-  {
-    value: "Project Manager"
+    value: "Programme Manager"
   },
   {
     value: "RR"
   },
   {
-    value: "Programme Manager"
+    value: "Joint Results Group"
   },
   {
-    value: "Programme Officer OAI"
+    value: "PAC"
+  },
+  {
+    value: "RBx Director"
+  },
+  {
+    value: "OPG"
   },
   {
     value: "M&E Officer"
   },
   {
-    value: "Project Board"
+    value: "Procurement"
+  },
+  {
+    value: "Programme Board"
+  },
+  {
+    value: "RBx"
+  },
+  {
+    value: "IEO"
   }
 ]
 
 function App() {
-  const [online, setOnline] = useState(true)
+  const [online, setOnline] = useState(false)
   const [sharePoint, setsharePoint] = useState(false)
-  const [atlas, setAtlas] = useState(false)
+  const [UNDocs, setUNDocs] = useState(false)
   const [website, setWebsite] = useState(false)
+  const [erc, setErc] = useState(false)
+  const [powerBi, setPowerBi] = useState(false)
+  const [unInfo, setUnInfo] = useState(false)
   const [view, setView] = useState('map')
   const [selectedRole, setSelectedRoles] = useState<string[]>([])
   return (
@@ -274,24 +282,36 @@ function App() {
         <HeaderDiv>
           <FilterEl>
             <OptionHead>Highlight Offline Assets</OptionHead>
-            <Button selected={!online} onClick={() => {setOnline(!online)}}>
-              <ToggleCircle selected={!online} />
+            <Button selected={online} onClick={() => {setOnline(!online)}}>
+              <ToggleCircle selected={online} />
             </Button>
           </FilterEl>
           <FilterEl>
             <OptionHead>Filter by System</OptionHead>
             <CheckboxContainer>
-              <CheckBoxEl onClick={() => {setAtlas(!atlas)}}>
-                <Checkbox selected={atlas} />
-                Atlas ERP
-              </CheckBoxEl>
               <CheckBoxEl onClick={() => {setsharePoint(!sharePoint)}}>
                 <Checkbox selected={sharePoint} />
                 SharePoint
               </CheckBoxEl>
+              <CheckBoxEl onClick={() => {setUNDocs(!UNDocs)}}>
+                <Checkbox selected={UNDocs} />
+                UNDOCS
+              </CheckBoxEl>
               <CheckBoxEl onClick={() => {setWebsite(!website)}}>
                 <Checkbox selected={website} />
-                Website
+                UNSDG Website
+              </CheckBoxEl>
+              <CheckBoxEl onClick={() => {setErc(!erc)}}>
+                <Checkbox selected={erc} />
+                ERC
+              </CheckBoxEl>
+              <CheckBoxEl onClick={() => {setPowerBi(!powerBi)}}>
+                <Checkbox selected={powerBi} />
+                PowerBI
+              </CheckBoxEl>
+              <CheckBoxEl onClick={() => {setUnInfo(!unInfo)}}>
+                <Checkbox selected={unInfo} />
+                UNINFO
               </CheckBoxEl>
             </CheckboxContainer>
           </FilterEl>
@@ -300,7 +320,7 @@ function App() {
             <Select
               options={options}
               className='dropdownMulti'
-              onChange={(el) => { setSelectedRoles(el.map((d: { value: string; }) => d.value)); }}
+              onChange={(el: any) => { setSelectedRoles(el.map((d: { value: string; }) => d.value)); }}
               values={selectedRole.map((d) => ({
                 value: d,
               }))}
@@ -326,20 +346,15 @@ function App() {
           view === 'map' ?
           <ProjectCycle
             sharePoint={sharePoint}
-            atlas={atlas}
+            erc={erc}
+            powerBi={powerBi}
+            unInfo={unInfo}
+            UNDocs={UNDocs}
             website={website}
             online={online}
             roles={selectedRole}
-            all={!(atlas || website || sharePoint)}
-          /> :
-          <ListView
-            sharePoint={sharePoint}
-            atlas={atlas}
-            website={website}
-            online={online}
-            roles={selectedRole}
-            all={!(atlas || website || sharePoint)}
-          />
+            all={!(UNDocs || website || sharePoint || erc || powerBi || unInfo)}
+          /> : null
         }
       </div>
     </>
