@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { ProjectCycle } from './ProjectCycle';
+import { ListView } from './ListView';
 import styled, { createGlobalStyle } from 'styled-components';
 import Select from 'react-dropdown-select';
 
@@ -354,7 +355,18 @@ function App() {
             online={online}
             roles={selectedRole}
             all={!(UNDocs || website || sharePoint || erc || powerBi || unInfo)}
-          /> : null
+          /> : 
+          <ListView
+            sharePoint={sharePoint}
+            erc={erc}
+            powerBi={powerBi}
+            unInfo={unInfo}
+            UNDocs={UNDocs}
+            website={website}
+            online={online}
+            roles={selectedRole}
+            all={!(UNDocs || website || sharePoint || erc || powerBi || unInfo)}
+          /> 
         }
       </div>
     </>
