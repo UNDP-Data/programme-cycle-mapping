@@ -42,7 +42,6 @@ export const ProjectCycle = (props: Props) => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     mapSvgSelect.call(zoomBehaviour as any);
   }, []);
-  console.log((all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RBx") !== -1) ? 1 : 0.25)
   return (
     <div style={{width: "calc(100% - 40px)", height: "calc(100vh - 145px)"}}>
       <svg width="100%" height="100%" style={{padding:"0 20px 20px 20px"}} viewBox="0 0 3115 1857" fill="none" xmlns="http://www.w3.org/2000/svg" ref={SVG}>
