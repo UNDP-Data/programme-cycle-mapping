@@ -76,131 +76,131 @@ export const ProjectCycle = (props: Props) => {
             <g id="TOC Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RBx") !== -1) ? 1 : 0.25}>
               <g id="Rectangle 6_2" filter="url(#filter0_d_87_410)">
                 <rect x="144" y="176" width="234" height="42" rx="6" fill="white" />
-                <rect x="144.5" y="176.5" width="233" height="41" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="176.5" width="233" height="41" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Theory of Change (ToC)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="202.22">Theory of Change (ToC)</tspan>
               </text>
-              <circle id="Ellipse 12" cx="144.5" cy="193.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13" cx="144.5" cy="193.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12" cx="144.5" cy="193.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13" cx="144.5" cy="193.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="CPAP Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_3" filter="url(#filter1_d_87_410)">
                 <rect x="144" y="248" width="234" height="64" rx="6" fill="white" />
-                <rect x="144.5" y="248.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="248.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Country Programme Action Plan (CPAP)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="274.22">Country Programme </tspan>
                 <tspan x="164" y="296.22">Action Plan (CPAP)</tspan>
               </text>
-              <circle id="Ellipse 12_2" cx="144.5" cy="265.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_2" cx="144.5" cy="265.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_2" cx="144.5" cy="265.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_2" cx="144.5" cy="265.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="UNSDGR Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_4" filter="url(#filter2_d_87_410)">
                 <rect x="144" y="342" width="234" height="42" rx="6" fill="white" />
-                <rect x="144.5" y="342.5" width="233" height="41" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="342.5" width="233" height="41" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="UNSDG Roadmap" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="368.22">UNSDG Roadmap</tspan>
               </text>
-              <circle id="Ellipse 12_3" cx="144.5" cy="359.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_3" cx="144.5" cy="359.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_3" cx="144.5" cy="359.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_3" cx="144.5" cy="359.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="UNSDGCCA Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_5" filter="url(#filter3_d_87_410)">
                 <rect x="144" y="414" width="234" height="64" rx="6" fill="white" />
-                <rect x="144.5" y="414.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="414.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="UNSDG Common Country Assessment" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="440.22">UNSDG Common </tspan>
                 <tspan x="164" y="462.22">Country Assessment</tspan>
               </text>
-              <circle id="Ellipse 12_4" cx="144.5" cy="431.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_4" cx="144.5" cy="431.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_4" cx="144.5" cy="431.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_4" cx="144.5" cy="431.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="CLMAHACT Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_6" filter="url(#filter4_d_87_410)">
                 <rect x="144" y="508" width="234" height="64" rx="6" fill="white" />
-                <rect x="144.5" y="508.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="508.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Country-level Macro Assessment of HACT" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="534.22">Country-level Macro </tspan>
                 <tspan x="164" y="556.22">Assessment of HACT</tspan>
               </text>
-              <circle id="Ellipse 12_5" cx="144.5" cy="525.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_5" cx="144.5" cy="525.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_5" cx="144.5" cy="525.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_5" cx="144.5" cy="525.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="CF UNSDGWebsite" opacity={(website || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_7" filter="url(#filter5_d_87_410)">
                 <rect x="144" y="602" width="234" height="42" rx="6" fill="white" />
-                <rect x="144.5" y="602.5" width="233" height="41" rx="5.5" stroke="#0F8B79" />
+                <rect x="144.5" y="602.5" width="233" height="41" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Cooperation Framework" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="628.22">Cooperation Framework</tspan>
               </text>
-              <circle id="Ellipse 12_6" cx="144.5" cy="619.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_6" cx="144.5" cy="619.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_6" cx="144.5" cy="619.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_6" cx="144.5" cy="619.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="EP ERC" opacity={(erc || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_8" filter="url(#filter6_d_87_410)">
                 <rect x="144" y="674" width="234" height="42" rx="6" fill="white" />
-                <rect x="144.5" y="674.5" width="233" height="41" rx="5.5" stroke="#0F8B79" />
+                <rect x="144.5" y="674.5" width="233" height="41" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Evaluation Plan" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="700.22">Evaluation Plan</tspan>
               </text>
-              <circle id="Ellipse 12_7" cx="144.5" cy="691.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_7" cx="144.5" cy="691.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_7" cx="144.5" cy="691.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_7" cx="144.5" cy="691.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="RMT Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_9" filter="url(#filter7_d_87_410)">
                 <rect x="144" y="746" width="234" height="64" rx="6" fill="white" />
-                <rect x="144.5" y="746.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="746.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Resource Mobilization Target (RMT)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="772.22">Resource Mobilization </tspan>
                 <tspan x="164" y="794.22">Target (RMT) </tspan>
               </text>
-              <circle id="Ellipse 12_8" cx="144.5" cy="763.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_8" cx="144.5" cy="763.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_8" cx="144.5" cy="763.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_8" cx="144.5" cy="763.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="PCS Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_10" filter="url(#filter8_d_87_410)">
                 <rect x="144" y="840" width="234" height="86" rx="6" fill="white" />
-                <rect x="144.5" y="840.5" width="233" height="85" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="840.5" width="233" height="85" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Partnership and Communications Strategy" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="866.22">Partnership and </tspan>
                 <tspan x="164" y="888.22">Communications </tspan>
                 <tspan x="164" y="910.22">Strategy</tspan>
               </text>
-              <circle id="Ellipse 12_9" cx="144.5" cy="857.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_9" cx="144.5" cy="857.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_9" cx="144.5" cy="857.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_9" cx="144.5" cy="857.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="PCA Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_11" filter="url(#filter9_d_87_410)">
                 <rect x="144" y="956" width="234" height="64" rx="6" fill="white" />
-                <rect x="144.5" y="956.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="956.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Programme Criticality Assessment" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="982.22">Programme Criticality </tspan>
                 <tspan x="164" y="1004.22">Assessment</tspan>
               </text>
-              <circle id="Ellipse 12_10" cx="144.5" cy="973.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_10" cx="144.5" cy="973.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_10" cx="144.5" cy="973.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_10" cx="144.5" cy="973.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="JRGWP Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Joint Results Group") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_12" filter="url(#filter10_d_87_410)">
                 <rect x="144" y="1050" width="234" height="64" rx="6" fill="white" />
-                <rect x="144.5" y="1050.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="144.5" y="1050.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Joint Results Group Work Plans" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="164" y="1076.22">Joint Results Group </tspan>
                 <tspan x="164" y="1098.22">Work Plans</tspan>
               </text>
-              <circle id="Ellipse 12_11" cx="144.5" cy="1067.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_11" cx="144.5" cy="1067.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_11" cx="144.5" cy="1067.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_11" cx="144.5" cy="1067.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
           </g>
           <g id="AppraiseAndApprove" opacity={selectedHeader === 'AppraiseAndApprove' || selectedHeader === null ? 1 : 0.25}>
@@ -223,63 +223,63 @@ export const ProjectCycle = (props: Props) => {
             <g id="RPD SharePoint" opacity={(sharePoint || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_13" filter="url(#filter11_d_87_410)">
                 <rect x="690" y="176" width="234" height="64" rx="6" fill="white" />
-                <rect x="690.5" y="176.5" width="233" height="63" rx="5.5" stroke="#0F8B79" />
+                <rect x="690.5" y="176.5" width="233" height="63" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Regional Programme Document (RPD)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="710" y="202.22">Regional Programme </tspan>
                 <tspan x="710" y="224.22">Document (RPD)</tspan>
               </text>
-              <circle id="Ellipse 12_12" cx="690.5" cy="193.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_12" cx="690.5" cy="193.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_12" cx="690.5" cy="193.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_12" cx="690.5" cy="193.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="CPD UNDOCS" opacity={(UNDocs || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_14" filter="url(#filter12_d_87_410)">
                 <rect x="690" y="270" width="234" height="64" rx="6" fill="white" />
-                <rect x="690.5" y="270.5" width="233" height="63" rx="5.5" stroke="#0F8B79" />
+                <rect x="690.5" y="270.5" width="233" height="63" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Country Programme Document (CPD)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="710" y="296.22">Country Programme </tspan>
                 <tspan x="710" y="318.22">Document (CPD)</tspan>
               </text>
-              <circle id="Ellipse 12_13" cx="690.5" cy="287.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_13" cx="690.5" cy="287.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_13" cx="690.5" cy="287.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_13" cx="690.5" cy="287.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="IPACP Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("PAC") !== -1 || roles.indexOf("RBx Director") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_15" filter="url(#filter13_d_87_410)">
                 <rect x="690" y="364" width="234" height="64" rx="6" fill="white" />
-                <rect x="690.5" y="364.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="690.5" y="364.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="IPAC of programme Theory of Change" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="710" y="390.22">IPAC of programme </tspan>
                 <tspan x="710" y="412.22">Theory of Change</tspan>
               </text>
-              <circle id="Ellipse 12_14" cx="690.5" cy="381.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_14" cx="690.5" cy="381.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_14" cx="690.5" cy="381.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_14" cx="690.5" cy="381.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="COPBCA Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("RBx Director") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_16" filter="url(#filter14_d_87_410)">
                 <rect x="690" y="458" width="234" height="64" rx="6" fill="white" />
-                <rect x="690.5" y="458.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="690.5" y="458.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="CO Performance-Based Capacity Assessment" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="710" y="484.22">CO Performance-Based </tspan>
                 <tspan x="710" y="506.22">Capacity Assessment</tspan>
               </text>
-              <circle id="Ellipse 12_15" cx="690.5" cy="475.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_15" cx="690.5" cy="475.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_15" cx="690.5" cy="475.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_15" cx="690.5" cy="475.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="ACF Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("PACr") !== -1 || roles.indexOf("OPG") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_17" filter="url(#filter15_d_87_410)">
                 <rect x="690" y="552" width="234" height="86" rx="6" fill="white" />
-                <rect x="690.5" y="552.5" width="233" height="85" rx="5.5" stroke="#D52B1E" />
+                <rect x="690.5" y="552.5" width="233" height="85" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Appraisal of Cooperation Framework/CPD/RPD" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="710" y="578.22">Appraisal of </tspan>
                 <tspan x="710" y="600.22">Cooperation </tspan>
                 <tspan x="710" y="622.22">Framework/CPD/RPD</tspan>
               </text>
-              <circle id="Ellipse 12_16" cx="690.5" cy="569.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_16" cx="690.5" cy="569.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_16" cx="690.5" cy="569.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_16" cx="690.5" cy="569.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
           </g>
           <g id="AnnualPlanning" opacity={selectedHeader === 'AnnualPlanning' || selectedHeader === null ? 1 : 0.25}>
@@ -299,25 +299,25 @@ export const ProjectCycle = (props: Props) => {
             <g id="IWP SharePoint" opacity={(sharePoint || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_18" filter="url(#filter16_d_87_410)">
                 <rect x="1225" y="176" width="234" height="64" rx="6" fill="white" />
-                <rect x="1225.5" y="176.5" width="233" height="63" rx="5.5" stroke="#0F8B79" />
+                <rect x="1225.5" y="176.5" width="233" height="63" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Integrated Workplan (IWP)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1245" y="202.22">Integrated Workplan </tspan>
                 <tspan x="1245" y="224.22">(IWP)</tspan>
               </text>
-              <circle id="Ellipse 12_17" cx="1225.5" cy="193.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_17" cx="1225.5" cy="193.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_17" cx="1225.5" cy="193.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_17" cx="1225.5" cy="193.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="PP Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Procurement") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_19" filter="url(#filter17_d_87_410)">
                 <rect x="1225" y="270" width="234" height="42" rx="6" fill="white" />
-                <rect x="1225.5" y="270.5" width="233" height="41" rx="5.5" stroke="#D52B1E" />
+                <rect x="1225.5" y="270.5" width="233" height="41" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Procurement Plan" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1245" y="296.22">Procurement Plan</tspan>
               </text>
-              <circle id="Ellipse 12_18" cx="1225.5" cy="287.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_18" cx="1225.5" cy="287.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_18" cx="1225.5" cy="287.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_18" cx="1225.5" cy="287.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
           </g>
           <g id="Monitor" opacity={selectedHeader === 'Monitor' || selectedHeader === null ? 1 : 0.25}>
@@ -341,72 +341,72 @@ export const ProjectCycle = (props: Props) => {
             <g id="DCII Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("M&E Officer") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_20" filter="url(#filter18_d_87_410)">
                 <rect x="1715" y="176" width="234" height="64" rx="6" fill="white" />
-                <rect x="1715.5" y="176.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="1715.5" y="176.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Data for CPD/RPD Indicators and IRRF" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1735" y="202.22">Data for CPD/RPD </tspan>
                 <tspan x="1735" y="224.22">Indicators and IRRF</tspan>
               </text>
-              <circle id="Ellipse 12_19" cx="1715.5" cy="193.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_19" cx="1715.5" cy="193.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_19" cx="1715.5" cy="193.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_19" cx="1715.5" cy="193.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="IFRP Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_21" filter="url(#filter19_d_87_410)">
                 <rect x="1715" y="270" width="234" height="64" rx="6" fill="white" />
-                <rect x="1715.5" y="270.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="1715.5" y="270.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Identification of Factors Related to Progress" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1735" y="296.22">Identification of Factors </tspan>
                 <tspan x="1735" y="318.22">Related to Progress</tspan>
               </text>
-              <circle id="Ellipse 12_20" cx="1715.5" cy="287.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_20" cx="1715.5" cy="287.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_20" cx="1715.5" cy="287.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_20" cx="1715.5" cy="287.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="QA SharePoinr" opacity={(sharePoint || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_22" filter="url(#filter20_d_87_410)">
                 <rect x="1715" y="364" width="234" height="42" rx="6" fill="white" />
-                <rect x="1715.5" y="364.5" width="233" height="41" rx="5.5" stroke="#0F8B79" />
+                <rect x="1715.5" y="364.5" width="233" height="41" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Quality Assessment" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1735" y="390.22">Quality Assessment</tspan>
               </text>
-              <circle id="Ellipse 12_21" cx="1715.5" cy="381.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_21" cx="1715.5" cy="381.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_21" cx="1715.5" cy="381.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_21" cx="1715.5" cy="381.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="RA PowerBI" opacity={(powerBi || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_23" filter="url(#filter21_d_87_410)">
                 <rect x="1715" y="436" width="234" height="42" rx="6" fill="white" />
-                <rect x="1715.5" y="436.5" width="233" height="41" rx="5.5" stroke="#0F8B79" />
+                <rect x="1715.5" y="436.5" width="233" height="41" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Risk Assessment" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1735" y="462.22">Risk Assessment</tspan>
               </text>
-              <circle id="Ellipse 12_22" cx="1715.5" cy="453.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_22" cx="1715.5" cy="453.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_22" cx="1715.5" cy="453.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_22" cx="1715.5" cy="453.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="OPM Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_24" filter="url(#filter22_d_87_410)">
                 <rect x="1715" y="508" width="234" height="64" rx="6" fill="white" />
-                <rect x="1715.5" y="508.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="1715.5" y="508.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Operational Performance Monitoring" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1735" y="534.22">Operational </tspan>
                 <tspan x="1735" y="556.22">Performance Monitoring</tspan>
               </text>
-              <circle id="Ellipse 12_23" cx="1715.5" cy="525.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_23" cx="1715.5" cy="525.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_23" cx="1715.5" cy="525.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_23" cx="1715.5" cy="525.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="LLD Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_25" filter="url(#filter23_d_87_410)">
                 <rect x="1715" y="602" width="234" height="64" rx="6" fill="white" />
-                <rect x="1715.5" y="602.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="1715.5" y="602.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Lessons Learned Document" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="1735" y="628.22">Lessons Learned </tspan>
                 <tspan x="1735" y="650.22">Document</tspan>
               </text>
-              <circle id="Ellipse 12_24" cx="1715.5" cy="619.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_24" cx="1715.5" cy="619.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_24" cx="1715.5" cy="619.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_24" cx="1715.5" cy="619.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
           </g>
           <g id="Oversight" opacity={selectedHeader === 'Oversight' || selectedHeader === null ? 1 : 0.25}>
@@ -428,50 +428,50 @@ export const ProjectCycle = (props: Props) => {
             <g id="MPB Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Board") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_26" filter="url(#filter24_d_87_410)">
                 <rect x="2201" y="176" width="234" height="64" rx="6" fill="white" />
-                <rect x="2201.5" y="176.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="2201.5" y="176.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Minutes Programme Board" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="2221" y="202.22">Minutes Programme </tspan>
                 <tspan x="2221" y="224.22">Board</tspan>
               </text>
-              <circle id="Ellipse 12_25" cx="2201.5" cy="193.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_25" cx="2201.5" cy="193.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_25" cx="2201.5" cy="193.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_25" cx="2201.5" cy="193.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="PSN Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_27" filter="url(#filter25_d_87_410)">
                 <rect x="2201" y="270" width="234" height="64" rx="6" fill="white" />
-                <rect x="2201.5" y="270.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="2201.5" y="270.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Programme Suspension Note" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="2221" y="296.22">Programme Suspension </tspan>
                 <tspan x="2221" y="318.22">Note</tspan>
               </text>
-              <circle id="Ellipse 12_26" cx="2201.5" cy="287.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_26" cx="2201.5" cy="287.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_26" cx="2201.5" cy="287.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_26" cx="2201.5" cy="287.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="PEL Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("RBx") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_28" filter="url(#filter26_d_87_410)">
                 <rect x="2201" y="364" width="234" height="64" rx="6" fill="white" />
-                <rect x="2201.5" y="364.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="2201.5" y="364.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Programme Extension Letter" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="2221" y="390.22">Programme Extension </tspan>
                 <tspan x="2221" y="412.22">Letter</tspan>
               </text>
-              <circle id="Ellipse 12_27" cx="2201.5" cy="381.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_27" cx="2201.5" cy="381.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_27" cx="2201.5" cy="381.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_27" cx="2201.5" cy="381.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
             <g id="PA Offline" opacity={(all || online) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_29" filter="url(#filter27_d_87_410)">
                 <rect x="2201" y="458" width="234" height="64" rx="6" fill="white" />
-                <rect x="2201.5" y="458.5" width="233" height="63" rx="5.5" stroke="#D52B1E" />
+                <rect x="2201.5" y="458.5" width="233" height="63" rx="5.5" stroke="#CC3E27" />
               </g>
               <text id="Programme Ammendments" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="2221" y="484.22">Programme </tspan>
                 <tspan x="2221" y="506.22">Ammendments</tspan>
               </text>
-              <circle id="Ellipse 12_28" cx="2201.5" cy="475.5" r="7" fill="white" stroke="#D52B1E" />
-              <circle id="Ellipse 13_28" cx="2201.5" cy="475.5" r="4" fill="#D52B1E" stroke="#D52B1E" />
+              <circle id="Ellipse 12_28" cx="2201.5" cy="475.5" r="7" fill="white" stroke="#CC3E27" />
+              <circle id="Ellipse 13_28" cx="2201.5" cy="475.5" r="4" fill="#CC3E27" stroke="#CC3E27" />
             </g>
           </g>
           <g id="Report" opacity={selectedHeader === 'Report' || selectedHeader === null ? 1 : 0.25}>
@@ -491,24 +491,24 @@ export const ProjectCycle = (props: Props) => {
             <g id="OUCR UNINFO" opacity={(unInfo || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_30" filter="url(#filter28_d_87_410)">
                 <rect x="2687" y="176" width="234" height="42" rx="6" fill="white" />
-                <rect x="2687.5" y="176.5" width="233" height="41" rx="5.5" stroke="#0F8B79" />
+                <rect x="2687.5" y="176.5" width="233" height="41" rx="5.5" stroke="#067F80" />
               </g>
               <text id="One UN Country Report" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="2707" y="202.22">One UN Country Report</tspan>
               </text>
-              <circle id="Ellipse 12_29" cx="2687.5" cy="193.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_29" cx="2687.5" cy="193.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_29" cx="2687.5" cy="193.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_29" cx="2687.5" cy="193.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
             <g id="ROAR SharePoint" opacity={(sharePoint || (all && !online)) && (roles.length === 0 || roles.indexOf("Programme Manager") !== -1 || roles.indexOf("RR") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_31" filter="url(#filter29_d_87_410)">
                 <rect x="2687" y="248" width="234" height="42" rx="6" fill="white" />
-                <rect x="2687.5" y="248.5" width="233" height="41" rx="5.5" stroke="#0F8B79" />
+                <rect x="2687.5" y="248.5" width="233" height="41" rx="5.5" stroke="#067F80" />
               </g>
               <text id="ROAR" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="2707" y="274.22">ROAR</tspan>
               </text>
-              <circle id="Ellipse 12_30" cx="2687.5" cy="265.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_30" cx="2687.5" cy="265.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_30" cx="2687.5" cy="265.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_30" cx="2687.5" cy="265.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
           </g>
           <g id="ProgrammeTransition" opacity={selectedHeader === 'ProgrammeTransition' || selectedHeader === null ? 1 : 0.25}>
@@ -525,14 +525,14 @@ export const ProjectCycle = (props: Props) => {
             <g id="ICPE ERC" opacity={(erc || (all && !online)) && (roles.length === 0 || roles.indexOf("IEO") !== -1)  ? 1 : 0.25}>
               <g id="Rectangle 6_32" filter="url(#filter30_d_87_410)">
                 <rect x="131" y="1275" width="284" height="64" rx="6" fill="white" />
-                <rect x="131.5" y="1275.5" width="283" height="63" rx="5.5" stroke="#0F8B79" />
+                <rect x="131.5" y="1275.5" width="283" height="63" rx="5.5" stroke="#067F80" />
               </g>
               <text id="Independent Country Programme Evaluaitons (ICPE)" fill="black" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Proxima Nova" fontSize="18" letterSpacing="0em">
                 <tspan x="151" y="1301.22">Independent Country </tspan>
                 <tspan x="151" y="1323.22">Programme Evaluaitons (ICPE)</tspan>
               </text>
-              <circle id="Ellipse 12_31" cx="131.5" cy="1292.5" r="7" fill="white" stroke="#0F8B79" />
-              <circle id="Ellipse 13_31" cx="131.5" cy="1292.5" r="4" fill="#0F8B79" stroke="#0F8B79" />
+              <circle id="Ellipse 12_31" cx="131.5" cy="1292.5" r="7" fill="white" stroke="#067F80" />
+              <circle id="Ellipse 13_31" cx="131.5" cy="1292.5" r="4" fill="#067F80" stroke="#067F80" />
             </g>
           </g>
         </g>
